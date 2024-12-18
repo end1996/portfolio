@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/aa8fa93262.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Web</title>
+</head>
+
+<body class="container mt-5 mb-5 w-50">
+    <!--Encabezado-->
+    <header>
+        <div class="container" id="profile">
+            <div class="first-column">
+                <div id="container-profile-photo">
+                    <img src="images/fotoPasaporte.png" alt="photo" id="profile-photo">
+                </div>
+            </div>
+            <div class="second-column mb-3">
+                <div>
+                    <h2>Enmanuel Nava Dávila</h2>
+                </div>
+                <div>
+                    <h4>Estudiante de ingeniería de Software con Inteligencia Artificial</h4>
+                </div>
+                <div id="mail-container">
+                    <a href="mailto:end199615@gmail.com">
+                        <button class="btn btn-primary">
+                            <i class="fa-solid fa-envelope"></i>
+                            <label>end199615@gmail.com</label>
+                        </button>
+                    </a>
+                </div>
+                <div id="social-icons-container" class="mt-2">
+                    <a href="#"><i class="fa-solid fa-file fa-2x" id="social-icon"></i></a>
+                    <a href="https://github.com/end1996?tab=repositories" target="_blank"><i
+                            class="fa-brands fa-github fa-2x" id="social-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/enmanuel-nava-d%C3%A1vila-615b04128/" target="_blank"><i
+                            class="fa-brands fa-linkedin fa-2x" id="social-icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <h4>Sobre mí</h4>
+            </div>
+            <div>
+                <p class="text-justify">
+                    Soy técnico medio en informática con estudios en ingeniería
+                    electrónica y desarrollo de software,
+                    con
+                    buena capacidad resolutiva, dispuesto a aprender y asumir nuevos
+                    retos. He desarrollado la mayor
+                    parte
+                    de trabajos de manera independiente, realizando tareas relacionadas
+                    a la informática y electrónica.
+                    Mi
+                    enfoque es desempeñarme en una empresa que me brinde crecimiento
+                    personal y complemente el
+                    desarrollo
+                    efectivo de mi carrera.
+                </p>
+            </div>
+        </div>
+    </header>
+    <!--Cuerpo - Tecnologías-->
+    <div class="container">
+        <div>
+            <h3>Tecnologías</h3>
+        </div>
+        <!--Iconos-->
+        <div id="icon-container" class="mb-3 mt-3">
+            <img src="images/icons/python.svg" id="icon">
+            <img src="images/icons/php.svg" id="icon">
+            <img src="images/icons/java.svg" id="icon">
+            <img src="images/icons/bootstrap-logo.svg" id="icon">
+            <img src="images/icons/javascript.svg" id="icon">
+            <img src="images/icons/html.svg" id="icon">
+            <img src="images/icons/flutter.svg" id="icon">
+            <img src="images/icons/mysql.svg" id="icon">
+            <img src="images/icons/git.svg" id="icon">
+        </div>
+    </div>
+    <!--Cuerpo - Experiencia-->
+    <div class="container">
+        <h3 class="mb-3">Experiencia</h3>
+    </div>
+    <div class="container" id="container-grid">
+        <div>
+            <strong>
+                <p>COMDATA</p>
+            </strong>
+            <p>Asesor técnico</p>
+            <p>
+                Recibir y atender llamadas telefónicas de clientes con un servicio fijo que presenten desperfectos /
+                averías con cualquiera de sus productos contratados, para brindarle las pautas y ayudarlo con su
+                casuística.
+            </p>
+        </div>
+        <div>
+            <label>2022</label>
+        </div>
+    </div>
+    <!--Cuerpo - Proyectos-->
+    <div class="container mt-3">
+        <div class="mb-3">
+            <h3>Proyectos</h3>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>Web de Gestión de tareas</h5>
+                <label>App web con CRUD implementado con MySQL y patrón MVC</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-php fa-2x"></i>
+                    <i class="fa-brands fa-bootstrap fa-2x"></i>
+                    <i class="fa-brands fa-css fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/CRUD-PHP.git" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/tareas_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/tareas_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/tareas_3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/tareas_4.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>Tok tik App</h5>
+                <label>Aplicación movil con funcionalidad similar a Tik-Tok</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-flutter fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/Tok_Tik_App.git" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/toktik_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/toktik_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/toktik_3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>Marvel Comic App</h5>
+                <label>Aplicación movil para comics con consumo de API de Marvel</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-flutter fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/marvel_comic_app.git" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/marvel_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/marvel_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/marvel_3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>Peliculas en cines</h5>
+                <label>Aplicación movil de peliculas del momento actualizado dinámicamente con consumo de API</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-flutter fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/peliculas_en_cines.git" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/peliculas_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/peliculas_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/peliculas_3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>Yes-No App</h5>
+                <label>Aplicación de chat móvil con API básico</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-flutter fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/yes_no_app.git" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/chat_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/chat_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/chat_3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>QR-Reader App</h5>
+                <label>Aplicación móvil para lectura de código QR</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-flutter fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/qr_reader_app.git" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/qr_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/qr_2.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>Juego ahorcado</h5>
+                <label>Aplicación web de entretenimiento</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-html5 fa-2x"></i>
+                    <i class="fa-brands fa-css fa-2x"></i>
+                    <i class="fa-brands fa-js fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/juego_ahorcado_js.git" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/ahorcado_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/ahorcado_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/ahorcado_3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="mb-3" id="container-grid-proyectos">
+            <div>
+                <h5>Agencia de viajes</h5>
+                <label>Aplicación de escritorio para gestión de vuelos con CRUD (Oracle SQL)</label>
+                <div id="languages-container">
+                    <i class="fa-brands fa-java fa-2x"></i>
+                </div>
+                <a href="https://github.com/end1996/agencia_viajes" target="_blank">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            <!--Carrusel de fotos-->
+            <div id="carouselExampleAutoplaying" class="carousel slide mx-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/proyectos/agencia_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/agencia_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/agencia_3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/proyectos/agencia_4.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Cuerpo - Formación-->
+    <div class="container mt-3 mb-3">
+        <h3>Formación</h3>
+    </div>
+    <div class="container mb-3" id="container-grid">
+        <div>
+            <strong>
+                <p>SENATI</p>
+            </strong>
+            <p>Ingeniería de Software con Inteligencia artificial (4to semestre)</p>
+        </div>
+        <div>
+            <label>2023 - Actualidad</label>
+        </div>
+    </div>
+    <div class="container mb-3" id="container-grid">
+        <div>
+            <strong>
+                <p>I.U.P "Santiago Mariño"</p>
+            </strong>
+            <p>Ingeniería electrónica (7mo semestre aprobado)</p>
+        </div>
+        <div>
+            <label>2014 - 2018</label>
+        </div>
+    </div>
+    <div class="container mb-3" id="container-grid">
+        <div>
+            <strong>
+                <p>U.E.Arq "María Auxiliadora"</p>
+            </strong>
+            <p>Técnico medio en informática</p>
+        </div>
+        <div>
+            <label>2008 - 2014</label>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="container border-top" id="footer-elements">
+            <a href="mailto:end199615@gmail.com" class="footer-link">
+                <i class="fa-solid fa-envelope fa-2x"></i>
+                <span>end199615@gmail.com</span>
+            </a>
+            <a href="#"><i class="fa-solid fa-file fa-2x"></i></a>
+            <a href="https://github.com/end1996?tab=repositories" target="_blank">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/enmanuel-nava-d%C3%A1vila-615b04128/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
