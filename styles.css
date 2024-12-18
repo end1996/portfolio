@@ -37,7 +37,8 @@
     display: flex;
     flex-wrap: wrap; /* Permite que los íconos pasen a la siguiente línea si es necesario */
     gap: 10px; /* Espaciado entre íconos */
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20;
 }
 
 #icon {
