@@ -51,12 +51,6 @@
     padding: 5px;
 }
 
-#icon:hover
-{
-    width: 65px;
-    height: 65px;
-}
-
 #container-grid
 {
     display: grid;
@@ -137,6 +131,7 @@
 i {
     color: #fff; /* Color predeterminado de los íconos */
     transition: color 0.3s ease; /* Transición suave */
+    padding-bottom: 5px;
 }
 
 i:hover {
